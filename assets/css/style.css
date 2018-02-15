@@ -1,0 +1,9 @@
+
+
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	margin-right: 15px;
+	float: left;
+}
