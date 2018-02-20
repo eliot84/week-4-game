@@ -17,24 +17,64 @@
 	
 </head>
 <body>
+<h1 class="title">Game of Thrones RPG </h1>
 
-<div class="box"></div>
-<div class="box"></div>
-<div class="box"></div>
-<div class="box"></div>
+<div class="container">
+	<div class="row">
+		<section class="setup">
+			<h3 class="character">Pick Your Character</h3>
+			<div class="box" id="brienne">Brienne of Tarth <div class="score">120</div></div>
+			<div class="box" id="daenerys">Daenerys Targaryen <div class="score">100</div></div>
+			<div class="box" id="baelish">Lord Baelish <div class="score">150</div></div>
+			<div class="box" id="serGregor">Ser Gregor Clegane <div class="score">180</div></div>
 
 
+			<!--
+			<div class="box rounded"><p>Daenerys</p><img src="assets/images/daenerysTargaryen.jpg"></div>
+			<div class="box rounded"><img src="assets/images/serGregorClegane.jpg"></div>
+			<div class="box rounded"><img src="assets/images/brienneOfTarth.jpg"></div>
+			<div class="box rounded"><img src="assets/images/aryaStark.jpg"></div>
+		-->
+
+		
+		</section>
+	</div> <!-- close row -->
 
 
+	<div class="row">
+		<section class="enemies">	
+			<h3>Enemies Available to Attack</h3>
+		</section>
+	</div> <!-- close row -->
 
 
+	<div class="row">
+		<section >
+			<h3>Fight Section</h3>
+			<button type="button" class="btn btn-danger attack">Attack!</button>
+
+		</section>
+	</div> <!-- close row -->
 
 
+	<div class="row">
+		<section class="defender">
+			<h3>Defender</h3>
+		</section>
+	</div> <!-- close row -->
+	<p class="status"></p>
+	<button type="button" class="btn btn-light playAgain">Play Again</button>
+
+
+</div> <!-- close container -->
 
 <script
 	  src="http://code.jquery.com/jquery-3.3.1.js"
 	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 	  crossorigin="anonymous">
-	</script>
+</script>
+
+ <script src="assets/javascript/game.js"></script> 
+
 </body>
 </html>

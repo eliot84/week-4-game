@@ -1,9 +1,79 @@
 
 
+
+body{
+		background-image: url("../images/icedragon.jpg"); 
+		color: white;
+}
+
+.title{
+	text-align: right;
+}
+
+.info{
+	background-color: white;
+	width: 170px;
+	height: 190px;
+	border-radius: 10px;
+	color: black;
+	clear: both;
+	text-align: center;
+}
+
+
 .box{
-	width: 100px;
-	height: 100px;
-	background-color: blue;
+	width: 120px;
+	height: 120px;
+	color: black;
+	font-size: 9px;
+	background-color: white;
 	margin-right: 15px;
+	margin-bottom: 3px;
 	float: left;
+	background-size: 70%;	
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	text-align: center;
+		position: relative;
+
+}
+
+#daenerys{	
+	background-image: url("../images/daenerysTargaryen.jpg");
+}
+
+#baelish{
+	background-image: url("../images/petyrBaelish.jpg");
+}
+
+#serGregor{
+	background-image: url("../images/serGregorClegane.jpg");
+}
+
+#brienne{
+	background-image: url("../images/brienneOfTarth.jpg");	
+}
+
+
+.box img{
+	display: block;
+	max-width:80%;
+	max-height:80%;	
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+section{
+	margin-bottom: 25px;
+	padding-top: 4px;
+}
+
+.score{
+    margin: 0 auto;
+	left: 25%;
+	top: 105px;
+	width: 50%;
+	height: 10px;
+	position: absolute;
 }
