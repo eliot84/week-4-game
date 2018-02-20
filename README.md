@@ -1,12 +1,12 @@
 # week-4-game
 
-##What is this?
+## What is this?
 
-##Purpose
+## Purpose
 
-##Getting Started
+## Getting Started
 
-##Further Help
+## Further Help
 
-##Contributers
+## Contributers
 Just me for now, but feel free to join in on the fun! 
